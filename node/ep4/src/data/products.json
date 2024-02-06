@@ -1,0 +1,27 @@
+ [
+      {
+        "id" : 0,
+        "productTitle": "น้ำยาล้างจาน1",
+        "productDes": "น้ำยาล้างจานสูตร1 ดี",
+        "productPrice": 40
+      },
+      {
+        "id" : 1,
+        "productTitle": "น้ำยาล้างจาน2",
+        "productDes": "น้ำยาล้างจานสูตร2 ดี",
+        "productPrice": 65
+      },
+      {
+        "id" : 2,
+        "productTitle": "น้ำยาล้างจาน3",
+        "productDes": "น้ำยาล้างจานสูตร3 ดี",
+        "productPrice": 35
+      },
+      {
+        "id" : 3,
+        "productTitle": "น้ำยาล้างจาน4",
+        "productDes": "น้ำยาล้างจานสูตร4 ดี",
+        "productPrice": 55
+      }
+    ]
+  
