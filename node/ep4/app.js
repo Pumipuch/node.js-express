@@ -1,16 +1,23 @@
+// คำสั่งสร้าง express() 2บรรทัด
 const express = require('express');
+const app = express();
+
 const debug = require('debug', 'app');
 const path = require('path');
 
-const app = express();
+
 const port = 3000;
 
-app.use(express.static(path.join(__dirname, "/public/")));
+//app.use(express.static(path.join(__dirname, "/public/")));
+
+//set ส่งข้อมูลไปไฟล์ ejs
+app.set("views", "./src/views");
+app.set("view engine", "ejs")
 
 app.get("/", (req, res) => {
 
-    res.send('Hello earth');
-
+    res.render('index' , {username : 'earth555' , customers : ["kat","cat","fat"]});
+    //ส่งได้ทั้งข้อมูล string & array
 })
 
 app.listen(port, () => {

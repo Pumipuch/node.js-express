@@ -1,0 +1,10 @@
+{
+    "//comment" : "ไม่สามารถคอมเม้นในไฟล์ได้" ,
+    "ประเภทข้อมูลที่ JSON" : "[string,number,object,array,boolean,null ]" ,
+
+    "Ex" : "ตัวอย่างข้อมูล" ,
+    "name": "Kate", "pet": {"dog": "Corgi", "cat": "Persian"} ,
+    "name2": "Jothanan", "age": 28, "car": ["Tsubaru", "Honda"] ,
+
+    "JSON นั้นจะอยู่ในรูปแบบของ text" : "ต้องแปลงประเภทของข้อมูลก่อน โดย JavaScript มีคำสั่งคือ JSON.parse()"
+}
